@@ -57,7 +57,7 @@ with open(model_path, "rb") as f:
 
 # === 2) Judul Aplikasi ===
 st.title("Prediksi Bunga Iris | Perceptron")
-st.title("<NAMA> / <NPM>") ##isikan dengan nama dan npm praktikan
+st.title("<Selly Monica> / <230712375>") ##isikan dengan nama dan npm praktikan
 st.write("Masukkan panjang sepal dan petal untuk memprediksi jenis bunga (Setosa=0, Versicolor=1).")
 
 # === 3) Input User ===
@@ -96,4 +96,5 @@ if st.button("Prediksi"):
 #
 # Catatan: pastikan file 'perceptron_model.pkl' ada di folder
 # yang sama dengan app.py, agar model bisa di-load dengan benar.
+
 # ==========================================================
